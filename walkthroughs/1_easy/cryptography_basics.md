@@ -218,3 +218,8 @@ In this room, we learned about the importance of cryptography and some of the pr
 
 Before proceeding to the next room, make sure you have taken note of all the key terms and concepts introduced in this room.
 > No answer needed
+
+---
+
+Ref:
+[Cryptography Basics](https://tryhackme.com/room/cryptographybasics)
