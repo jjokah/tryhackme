@@ -196,3 +196,7 @@ Ensure you have noted the various search engines and resources mentioned in this
 
 > No answer needed
 
+---
+
+Ref:
+[Search Skills](https://tryhackme.com/room/searchskills)
