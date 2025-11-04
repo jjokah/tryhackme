@@ -30,7 +30,7 @@ Paths:
 This beginner-friendly path aims to give a solid introduction to the different areas in Computer Security.
 
 #### Cyber Security 101 Sections 
-1. Start Your Cyber Security Journey
+1. Start Your Cyber Security Journey ✅
 2. Linux Fundamentals
 3. Windows and AD Fundamentals
 4. Command Line
