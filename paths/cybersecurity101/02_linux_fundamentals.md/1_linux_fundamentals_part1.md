@@ -226,6 +226,61 @@ Let's break this down:
 
 ## Task 6 - Searching for Files
 
+Although it doesn't seem like it so far, one of the redeeming features of Linux is truly how efficient you can be with it. With that said, you can only be as efficient as you are familiar with it of course. As you interact with OSs such as Ubuntu over time, essential commands like those we've already covered will start to become muscle-memory.
+
+One fantastic way to show just how efficient you can be with systems like this is using a set of commands to quickly search for files across the entire system that our user has access to. No need to consistently use `cd` and `ls` to find out what is where. Instead, we can use commands such as `find` to automate things like this for us!
+
+This is where Linux starts to become a bit more intimidating to approach -- but we'll break this down and ease you into it.
+
+### Using Find
+The find command is fantastic in the sense that it can be used both very simply or rather complex depending upon what it is you want to do exactly. However, let's stick to the fundamentals first.
+
+Take the snippet below; we can see a list of directories available to us:
+
+_Using "ls" to list the contents of the current directory_
+```bash
+tryhackme@linux1:~$ ls
+Desktop Documents Pictures folder1
+tryhackme@linux1:~$
+```
+1. Desktop
+2. Documents
+3. Pictures
+4. folder1
+
+Now, of course, directories can contain even more directories within themselves. It becomes a headache when we're having to look through every single one just to try and look for specific files. We can use `find` to do just this for us!
+
+Let's start simple and assume that we already know the name of the file we're looking for — but can't remember where it is exactly! In this case, we're looking for "passwords.txt"
+
+If we remember the filename, we can simply use `find -name passwords.txt` where the command will look through every folder in our current directory for that specific file like so:
+
+_Using "find" to find a file with the name of "passwords.txt"_
+```bash
+tryhackme@linux1:~$ find -name passwords.txt
+./folder1/passwords.txt
+tryhackme@linux1:~$
+```
+
+"Find" has managed to find the file — it turns out it is located in folder1/passwords.txt — sweet. But let's say that we don't know the name of the file, or want to search for every file that has an extension such as ".txt". Find let's us do that too!
+
+We can simply use what's known as a wildcard (*) to search for anything that has .txt at the end. In our case, we want to find every .txt file that's in our current directory. We will construct a command such as `find -name *.txt`. Where "Find" has been able to find every .txt file and has then given us the location of each one:
+
+_Using "find" to find any file with the extension of ".txt"_
+```bash
+tryhackme@linux1:~$ find -name *.txt
+./folder1/passwords.txt
+./Documents/todo.txt
+tryhackme@linux1:~$
+```
+
+Find has managed to find:
+1. "passwords.txt" located within "folder1"
+2. "todo.txt" located within "Documents"
+
+That wasn't so tough, huh!
+
+
+
 
 
 
