@@ -14,23 +14,19 @@ TryHackMe is beginner-friendly with:
 
 ![TryHackMe Simulated Real-world attack - Networks](https://tryhackme.com/images/pngs/home/networks.png)
 
-## Cybersecurity for Web Developers
 
-Roadmap on TryHackMe for Web Developers.
-
-Paths:
+_Here is a customized Roadmap - **Cybersecurity for Web Developers**_
 - Cyber Security 101
 - Web Fundamentals
 - Web Application Pentesting
 - Web Application Red Teaming
 
-### Cyber Security 101
 
-![intro-to-cybersecurity](https://assets.tryhackme.com/img/paths/introtocybersecurity.svg)
-
+## Cyber Security 101
 This beginner-friendly path aims to give a solid introduction to the different areas in Computer Security.
 
-#### Cyber Security 101 Sections 
+_Sections:_
+
 1. Start Your Cyber Security Journey ✅
 2. Linux Fundamentals
 3. Windows and AD Fundamentals
@@ -46,39 +42,34 @@ This beginner-friendly path aims to give a solid introduction to the different a
 13. Build Your Cyber Security Career
 14. OWASP Top 10 (2025)
 
-### Web Fundamentals
 
-![web-fundamentals](https://assets.tryhackme.com/img/paths/web.svg)
-
+## Web Fundamentals
 The aim of this path is to teach you how to attack web applications. To successfully attack and exploit web applications, you need to understand how they work.
 
-#### Web Fundamentals Sections
+_Sections:_
 1. How The Web Works
 2. Introduction to Web Hacking
 3. Burp Suite
 4. Web Hacking Fundamentals 
 5. OWASP Top 10 (2025)
 
-### Web Application Pentesting
 
-![web-application-pentesting](https://assets.tryhackme.com/img/paths/webapppentesting.svg)
-
+## Web Application Pentesting
 Every day you interact with web applications. Just reading the information here means you are using a web application! Understanding how to test web applications is a critical skill required by almost every pentester! Even if you want to specialise in testing other systems like networks or cloud, a solid baseline in web application testing will greatly assist you on this journey. This path covers key topics that you need to understand for web application testing.
 
-#### Web Application Pentesting Sections
+_Sections:_
+
 1. Authentication
 2. Injection Attacks
 3. Advanced Server-Side Attacks
 4. Advanced Client-Side Attacks
 5. HTTP Request Smuggling
 
-### Web Application Red Teaming
 
-![web-application-red-teaming](https://assets.tryhackme.com/img/paths/web-application-red-teaming-learning.webp)
-
+## Web Application Red Teaming
 So you have decided to venture into web application testing? You know the basics, you can find the vulnerabilities, but it still feels like something is missing. What you need, is a good exploitation methodology! Rather than simply finding vulnerabilities and calling it a day, this learning path teaches you the principles of practical exploitation.
 
-#### Web Application Red Teaming Sections
+_Sections:_
 1. Cryptographic Failures
 2. Custom Tooling
 3. Chaining Vulnerabilities
