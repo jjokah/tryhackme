@@ -22,10 +22,11 @@ Paths:
 - Cyber Security 101
 - Web Fundamentals
 - Web Application Pentesting
+- Web Application Red Teaming
 
 ### Cyber Security 101
 
-![introtocybersecurity](https://assets.tryhackme.com/img/paths/introtocybersecurity.svg)
+![intro-to-cybersecurity](https://assets.tryhackme.com/img/paths/introtocybersecurity.svg)
 
 This beginner-friendly path aims to give a solid introduction to the different areas in Computer Security.
 
@@ -43,10 +44,11 @@ This beginner-friendly path aims to give a solid introduction to the different a
 11. Security Solutions
 12. Defensive Security Tooling
 13. Build Your Cyber Security Career
+14. OWASP Top 10 (2025)
 
 ### Web Fundamentals
 
-![webfundamentals](https://assets.tryhackme.com/img/paths/web.svg)
+![web-fundamentals](https://assets.tryhackme.com/img/paths/web.svg)
 
 The aim of this path is to teach you how to attack web applications. To successfully attack and exploit web applications, you need to understand how they work.
 
@@ -55,10 +57,11 @@ The aim of this path is to teach you how to attack web applications. To successf
 2. Introduction to Web Hacking
 3. Burp Suite
 4. Web Hacking Fundamentals 
+5. OWASP Top 10 (2025)
 
 ### Web Application Pentesting
 
-![webapplicationpentesting](https://assets.tryhackme.com/img/paths/webapppentesting.svg)
+![web-application-pentesting](https://assets.tryhackme.com/img/paths/webapppentesting.svg)
 
 Every day you interact with web applications. Just reading the information here means you are using a web application! Understanding how to test web applications is a critical skill required by almost every pentester! Even if you want to specialise in testing other systems like networks or cloud, a solid baseline in web application testing will greatly assist you on this journey. This path covers key topics that you need to understand for web application testing.
 
@@ -68,6 +71,19 @@ Every day you interact with web applications. Just reading the information here 
 3. Advanced Server-Side Attacks
 4. Advanced Client-Side Attacks
 5. HTTP Request Smuggling
+
+### Web Application Red Teaming
+
+![web-application-red-teaming](https://assets.tryhackme.com/img/paths/web-application-red-teaming-learning.webp)
+
+So you have decided to venture into web application testing? You know the basics, you can find the vulnerabilities, but it still feels like something is missing. What you need, is a good exploitation methodology! Rather than simply finding vulnerabilities and calling it a day, this learning path teaches you the principles of practical exploitation.
+
+#### Web Application Red Teaming Sections
+1. Cryptographic Failures
+2. Custom Tooling
+3. Chaining Vulnerabilities
+4. Bypassing WAF
+5. Attacking LLMs
 
 ---
 _Happy Hacking!_
